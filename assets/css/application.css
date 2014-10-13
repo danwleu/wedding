@@ -789,3 +789,97 @@ button {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+
+.couple {
+  padding-bottom: 72px;
+  background: #f9f9f9;
+}
+.couple h2 {
+  color: #c7aa6a;
+  text-align: center;
+}
+
+.bride-groom .person:first-child {
+  margin-bottom: 72px;
+}
+.bride-groom h3 {
+  font-size: 49px;
+  font-size: 3.0625rem;
+  margin-bottom: 24px;
+  color: #df5851;
+  font-family: "Knockout 26 A", "Knockout 26 B", Helvetica, arial, sans-serif;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.bride-groom p {
+  font-size: 14px;
+  font-size: 0.875rem;
+  max-width: 654px;
+  margin: 0 auto 16px;
+}
+.bride-groom .note {
+  font-size: 12px;
+  font-size: 0.75rem;
+  margin-top: 48px;
+  font-style: italic;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #bdc3c7;
+}
+
+.stand-up h2 {
+  color: #b8dfdb;
+}
+.stand-up h3 {
+  font-size: 40px;
+  font-size: 2.5rem;
+  margin-top: -6px;
+  margin-bottom: 4px;
+  color: #c7aa6a;
+  font-family: "Knockout 26 A", "Knockout 26 B", Helvetica, arial, sans-serif;
+  letter-spacing: 0.05em;
+}
+.stand-up p {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+.stand-up p:first-of-type {
+  margin-bottom: 18px;
+}
+.stand-up .meta {
+  font-size: 10px;
+  font-size: 0.625rem;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.stand-up .label {
+  color: #df5851;
+  font-weight: 700;
+}
+.stand-up .name {
+  font-weight: 700;
+}
+.stand-up .person {
+  *zoom: 1;
+  margin-bottom: 48px;
+}
+.stand-up .person:before, .stand-up .person:after {
+  content: " ";
+  display: block;
+}
+.stand-up .person:after {
+  clear: both;
+}
+.stand-up .peeps {
+  max-width: 654px;
+  margin: 0 auto;
+}
+.stand-up .thumb {
+  float: left;
+  width: 200px;
+  margin-right: 24px;
+}
+.stand-up .info {
+  float: left;
+  width: 430px;
+}

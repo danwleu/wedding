@@ -1,2 +1,105 @@
 
-.couple {}
+.couple {
+  padding-bottom: $base*3;
+  background: $off-white;
+  
+  h2 {
+    color: $gold;
+    text-align: center;
+  }
+}
+
+.bride-groom {  
+  .person:first-child {
+    margin-bottom: $base*3;
+  }
+
+  h3 {
+    @include font-size(49px);
+    margin-bottom: $base;
+    color: $red;
+    font-family: $knock-26;
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+  
+  p {
+    @include font-size(14px);
+    max-width: 654px;
+    margin: 0 auto 16px;
+  }
+  
+  .note {
+    @include font-size(12px);
+    margin-top: $base*2;
+    font-style: italic;
+    padding-bottom: $base*2;
+    border-bottom: 1px solid $grey;
+  }
+}
+
+
+.stand-up {
+  h2 {
+    color: $lt-green;
+  }
+  
+  h3 {
+    @include font-size(40px);
+    margin-top: -6px;
+    margin-bottom: 4px;
+    color: $gold;
+    font-family: $knock-26;
+    letter-spacing: 0.05em;
+  }
+  
+  p {
+    @include font-size(14px);
+    
+    &:first-of-type {
+      margin-bottom: 18px;
+    }
+  }
+  
+  .meta {
+    @include font-size(10px);
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  .label {
+    color: $red;
+    font-weight: $bold;
+  }
+  
+  .name {
+    font-weight: $bold;
+  }
+  
+  .person {
+    @include cf;
+    margin-bottom: $base*2;
+  }
+  
+  .peeps {
+    max-width: 654px;
+    margin: 0 auto;
+  }
+  
+  .thumb {
+    float: left;
+    width: 200px;
+    margin-right: 24px;
+  }
+  
+  .info {
+    float: left;
+    width: 430px;
+  }
+}
+
+
+
+
+
