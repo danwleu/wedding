@@ -1,0 +1,166 @@
+
+.header {
+  position: relative;
+  padding: 20px;
+  background: $dk-grey;
+  text-align: center;
+  
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    width: 2px;
+    height: 700px;
+    background: $red;
+  }
+  
+  &:before {
+    left: 26px;
+  }
+  
+  &:after {
+    right: 26px;
+  }
+}
+
+.header .wrapper {
+  height: 700px;
+  border: 2px solid $red;
+
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    bottom: 20px;
+    width: 30px;
+    height: 30px;
+    border-top: 2px solid $red;
+  }
+  
+  &:before {
+    left: 26px;
+    border-right: 2px solid $red;
+  }
+  
+  &:after {
+    right: 26px;
+    border-left: 2px solid $red;
+  }
+}
+
+
+/** HERO **/
+
+.hero {
+  @include absolute-center;
+}
+
+.hero .title {
+  position: relative;
+  margin-bottom: 8px;
+
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 100px;
+    height: 2px;
+    margin-left: -50px;
+    background: $red;
+  }
+  
+  &:before {
+    top: -22px;
+    border-right: 2px solid $red;
+  }
+  
+  &:after {
+    top: -16px;
+    border-left: 2px solid $red;
+  }
+}
+
+.hero .tag {
+  @include font-size(16px);
+  margin-bottom: $base*2;
+  color: #fff;
+  font-family: $idle;
+  letter-spacing: 0.25em;
+}
+
+.hero .date {
+  @include font-size(44px);
+  position: relative;
+  padding-top: $base;
+  color: $gold;
+  font-family: $knock-26;
+  letter-spacing: 0.05em;
+
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 100px;
+    height: 2px;
+    margin-left: -50px;
+    background: $red;
+  }
+  
+  &:before {
+    top: -22px;
+    border-right: 2px solid $red;
+  }
+  
+  &:after {
+    top: -16px;
+    border-left: 2px solid $red;
+  }
+}
+
+
+/** NAV **/
+
+.main-nav {
+  position: relative;
+  margin: -2px 6px 0 6px;
+  padding: 2px 0;
+  border-top: 2px solid $red;
+  border-bottom: 2px solid $red;
+  text-align: center;
+  
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: $red;
+  }
+  
+  &:before {
+    left: 26px;
+  }
+  
+  &:after {
+    right: 26px;
+  }
+
+}
+
+.main-nav li {
+  display: inline-block;
+  margin: 0 60px;
+  
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.main-nav li a {
+  @include font-size(14px);
+  text-transform: uppercase;
+  font-weight: $semi;
+}

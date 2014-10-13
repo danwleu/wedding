@@ -1,0 +1,10 @@
+.wrapper {
+  @include cf;
+  max-width: 1800px;
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
+.section {
+  @include cf;
+}

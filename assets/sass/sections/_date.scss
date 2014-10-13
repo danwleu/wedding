@@ -1,0 +1,21 @@
+
+.the-date {
+  padding-bottom: 10px;
+  text-align: center;
+  background: $lt-green;
+  
+  .intro {
+    @include font-size(16px);
+    max-width: 500px;
+    margin: 0 auto $base*3;
+    line-height: 1.5;
+  }
+  
+  .note {
+    @include font-size(10px);
+    color: $dk-green;
+    font-weight: $bold;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+}
