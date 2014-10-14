@@ -58,6 +58,7 @@
 .hero .title {
   position: relative;
   margin-bottom: 8px;
+  padding-left: 71px;
 
   &:before, &:after {
     content: "";
@@ -65,7 +66,7 @@
     left: 50%;
     width: 100px;
     height: 2px;
-    margin-left: -50px;
+    margin-left: -52px;
     background: $red;
   }
   
@@ -77,6 +78,15 @@
   &:after {
     top: -16px;
     border-left: 2px solid $red;
+  }
+  
+  .ampersand {
+    display: inline-block;
+    vertical-align: 32px;
+    width: 54px;
+    height: 47px;
+    margin: 0 15px 0 0;
+    background: $ampersand;
   }
 }
 
@@ -102,7 +112,7 @@
     left: 50%;
     width: 100px;
     height: 2px;
-    margin-left: -50px;
+    margin-left: -52px;
     background: $red;
   }
   

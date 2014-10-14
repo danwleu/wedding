@@ -25,7 +25,7 @@
       </nav>
       
       <div class="hero">
-        <h1 class="title">Katie Daniel</h1>
+        <h1 class="title">Katie<span class="ampersand"></span>Daniel</h1>
         <p class="tag">are getting married</p>
         <p class="wed-date">11.7.2014</p>
       </div>
