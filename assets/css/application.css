@@ -632,6 +632,15 @@ button.btn {
   background: #b8dfdb url('/assets/images/bg-date.jpg?1412806460') no-repeat center center;
   background-size: cover;
 }
+.date h2 {
+  margin-bottom: 120px;
+}
+.date .date-svg {
+  width: 225px;
+  height: 227px;
+  margin: 0 auto 96px;
+  background: url('/assets/images/the-date.svg?1413327554') no-repeat;
+}
 .date .intro {
   font-size: 16px;
   font-size: 1rem;

@@ -16,7 +16,7 @@
       
       <nav class="main-nav">
         <ul>
-          <li><a href="#the-date">The Date</a></li>
+          <li><a href="#date">The Date</a></li>
           <li><a href="#place">The Place</a></li>
           <li><a href="#couple">The Couple</a></li>
           <li><a href="#rsvp">RSVP</a></li>

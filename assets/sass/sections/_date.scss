@@ -5,6 +5,17 @@
   background: $lt-green $bg-date no-repeat center center;
   background-size: cover;
   
+  h2 {
+    margin-bottom: $base*5;
+  }
+  
+  .date-svg {
+    width: 225px;
+    height: 227px;
+    margin: 0 auto $base*4;
+    background: $the-date no-repeat;
+  }
+  
   .intro {
     @include font-size(16px);
     max-width: 500px;
