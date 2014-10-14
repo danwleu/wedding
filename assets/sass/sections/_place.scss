@@ -37,7 +37,8 @@
 }
 
 .col-location {
-  background: $red;
+  background: $red $bg-map no-repeat center center;
+  background-size: cover;
   text-align: center;
   
   .hotel-title {

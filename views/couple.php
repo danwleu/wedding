@@ -37,7 +37,7 @@
     <div class="peeps">
       <div class="person">
         <div class="thumb">
-          <img src="/assets/images/peep-mark.jpg" alt="Suzanne Wilder">
+          <img src="/assets/images/pic-wild.jpg" alt="Suzanne Wilder">
         </div>
         <div class="info">
           <h3>Matron of Honor</h3>
@@ -47,7 +47,7 @@
       </div>
       <div class="person">
         <div class="thumb">
-          <img src="/assets/images/peep-mark.jpg" alt="Ryan Funk">
+          <img src="/assets/images/pic-funk.jpg" alt="Ryan Funk">
         </div>
         <div class="info">
           <h3>Best Man</h3>
@@ -57,7 +57,7 @@
       </div>
       <div class="person">
         <div class="thumb">
-          <img src="/assets/images/peep-mark.jpg" alt="Mark Edwin Wetzel">
+          <img src="/assets/images/pic-blane.jpg" alt="Mark Edwin Wetzel">
         </div>
         <div class="info">
           <h3>Officiant</h3>

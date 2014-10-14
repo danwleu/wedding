@@ -158,7 +158,6 @@ em {
   list-style: decimal;
 }
 
-/* $sprite: image-url("sprite.svg"); */
 /*
 [class*="icon-"] {
   display: inline-block;
@@ -471,7 +470,8 @@ button.btn {
 .header {
   position: relative;
   padding: 20px;
-  background: #2d2d2d;
+  background: #2d2d2d url('/assets/images/bg-header.jpg?1413301918') no-repeat center center;
+  background-size: cover;
   text-align: center;
 }
 .header:before, .header:after {
@@ -630,19 +630,20 @@ button.btn {
   text-transform: uppercase;
 }
 
-.the-date {
+.date {
   padding-bottom: 10px;
   text-align: center;
-  background: #b8dfdb;
+  background: #b8dfdb url('/assets/images/bg-date.jpg?1412806460') no-repeat center center;
+  background-size: cover;
 }
-.the-date .intro {
+.date .intro {
   font-size: 16px;
   font-size: 1rem;
   max-width: 500px;
   margin: 0 auto 72px;
   line-height: 1.5;
 }
-.the-date .note {
+.date .note {
   font-size: 10px;
   font-size: 0.625rem;
   color: #447d77;
@@ -687,7 +688,8 @@ button.btn {
 }
 
 .col-location {
-  background: #df5851;
+  background: #df5851 url('/assets/images/bg-map.png?1412806864') no-repeat center center;
+  background-size: cover;
   text-align: center;
 }
 .col-location .hotel-title {
@@ -853,8 +855,9 @@ button.btn {
 }
 
 .rsvp {
-  background: #2d2d2d;
+  background: #2d2d2d url('/assets/images/bg-rsvp.png?1412807130') repeat-x left top;
   padding-bottom: 72px;
+  background-size: 273px auto;
 }
 .rsvp h2 {
   color: #c7aa6a;
@@ -872,7 +875,8 @@ button.btn {
 }
 
 .party-header {
-  background: #b8dfdb;
+  background: #b8dfdb url('/assets/images/bg-party.png?1412807481') no-repeat center bottom;
+  background-size: contain;
   text-align: center;
 }
 .party-header h2 {
@@ -880,6 +884,10 @@ button.btn {
 }
 .party-header p {
   max-width: 460px;
+  margin: 0 auto;
+}
+.party-header .rv {
+  width: 405px;
   margin: 0 auto;
 }
 
@@ -897,4 +905,15 @@ button.btn {
 
 .registry {
   text-align: center;
+}
+.registry p {
+  margin-bottom: 48px;
+}
+
+.registry-logos {
+  width: 300px;
+  margin: 0 auto;
+}
+.registry-logos li {
+  margin-bottom: 48px;
 }

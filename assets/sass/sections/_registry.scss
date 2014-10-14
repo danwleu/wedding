@@ -1,4 +1,17 @@
 
 .registry {
   text-align: center;
+  
+  p {
+    margin-bottom: $base*2;
+  }
 }
+
+.registry-logos {
+  width: 300px;
+  margin: 0 auto;
+  li {
+    margin-bottom: $base*2;
+  }
+}
+

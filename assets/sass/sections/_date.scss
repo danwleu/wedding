@@ -1,8 +1,9 @@
 
-.the-date {
+.date {
   padding-bottom: 10px;
   text-align: center;
-  background: $lt-green;
+  background: $lt-green $bg-date no-repeat center center;
+  background-size: cover;
   
   .intro {
     @include font-size(16px);

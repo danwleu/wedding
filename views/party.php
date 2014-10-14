@@ -3,7 +3,7 @@
   <div class="party-header">
     <h2>The After-After-Party</h2>
     <p>Here&#8217;s our tentative plan for the first year of the rest of our lives:</p>
-    <div class="trailer"></div>
+    <div class="rv"><img src="/assets/images/rv.png" alt=""></div>
   </div>
   
   <div class="party-content">

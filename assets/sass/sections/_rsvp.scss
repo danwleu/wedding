@@ -1,7 +1,8 @@
 
 .rsvp {
-  background: $black;
+  background: $black $bg-rsvp repeat-x left top;
   padding-bottom: $base*3;
+  background-size: 273px auto;
   
   h2 {
     color: $gold;
