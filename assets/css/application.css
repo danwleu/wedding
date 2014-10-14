@@ -235,17 +235,21 @@ em {
   }
 }
 
-.wrapper {
+body {
+  background: #f9f9f9;
+}
+
+.page {
   *zoom: 1;
   max-width: 1800px;
   min-width: 1000px;
   margin: 0 auto;
 }
-.wrapper:before, .wrapper:after {
+.page:before, .page:after {
   content: " ";
   display: block;
 }
-.wrapper:after {
+.page:after {
   clear: both;
 }
 
@@ -566,6 +570,7 @@ button.btn {
   font-size: 2.75rem;
   position: relative;
   padding-top: 24px;
+  padding-left: 2px;
   color: #c7aa6a;
   font-family: "Knockout 26 A", "Knockout 26 B", Helvetica, arial, sans-serif;
   letter-spacing: 0.05em;
@@ -576,7 +581,7 @@ button.btn {
   left: 50%;
   width: 100px;
   height: 2px;
-  margin-left: -52px;
+  margin-left: -50px;
   background: #df5851;
 }
 .hero .wed-date:before {

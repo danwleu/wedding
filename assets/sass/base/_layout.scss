@@ -1,4 +1,8 @@
-.wrapper {
+body {
+  background: $off-white;
+}
+
+.page {
   @include cf;
   max-width: 1800px;
   min-width: 1000px;

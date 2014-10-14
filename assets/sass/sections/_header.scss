@@ -102,6 +102,7 @@
   @include font-size(44px);
   position: relative;
   padding-top: $base;
+  padding-left: 2px;
   color: $gold;
   font-family: $knock-26;
   letter-spacing: 0.05em;
@@ -112,7 +113,7 @@
     left: 50%;
     width: 100px;
     height: 2px;
-    margin-left: -52px;
+    margin-left: -50px;
     background: $red;
   }
   
