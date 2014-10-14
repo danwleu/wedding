@@ -1,4 +1,4 @@
-<section class="rsvp section">
+<section id="rsvp" class="rsvp section">
   <h2>RSVP</h2>
   <p>Couldn?t find your local mailbox? Respond here to let us know if you can join the festivities or if you?re in tears because you have to decline.</p>
   
@@ -12,16 +12,33 @@
       <input type="text" name="last-name">
     </div>
     <div class="form-set form-two-col">
-      <div class="form-item">
-        <input type="radio" name="yes" id="yes">
-        <label for="yes">Yes</label>
+      <div class="form-col">
+        <label>Attending?</label>
+        <div class="form-item form-radio">
+          <input type="radio" name="yes" id="attending">
+          <label for="yes">Yes</label>
+        </div>
+        <div class="form-item form-radio">
+          <input type="radio" name="no" id="attending">
+          <label for="no">No</label>
+        </div>
       </div>
-      <div class="form-item form-select">>
-        <label for="attending"># Attending</label>
-        <select name="attending">
-          <option value="1">1</option>
-          <option value="2">2</option>
-        </select>
+      <div class="form-col">
+        <div class="form-item form-select">
+          <label for="num-attending"># Attending</label>
+          <select name="num-attending">
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="form-item">
+      <label for="message">Message</label>
+      <textarea name="message"></textarea>
+    </div>
+    <div class="form-item">
+      <button class="btn">Submit</button>
     </div>
   </form>
 </section>

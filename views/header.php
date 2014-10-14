@@ -16,12 +16,12 @@
       
       <nav class="main-nav">
         <ul>
-          <li><a href="">The Date</a></li>
-          <li><a href="">The Place</a></li>
-          <li><a href="">The Couple</a></li>
-          <li><a href="">RSVP</a></li>
-          <li><a href="">The Future</a></li>
-          <li><a href="">Registry</a></li>
+          <li><a href="#the-date">The Date</a></li>
+          <li><a href="#place">The Place</a></li>
+          <li><a href="#couple">The Couple</a></li>
+          <li><a href="#rsvp">RSVP</a></li>
+          <li><a href="#future">The Future</a></li>
+          <li><a href="#registry">Registry</a></li>
         </ul>
       </nav>
       
