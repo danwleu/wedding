@@ -15,11 +15,11 @@
       <div class="form-col">
         <label>Attending?</label>
         <div class="form-item form-radio">
-          <input type="radio" name="yes" id="attending">
+          <input type="radio" name="attending" value="yes" id="yes">
           <label for="yes">Yes</label>
         </div>
         <div class="form-item form-radio">
-          <input type="radio" name="no" id="attending">
+          <input type="radio" name="attending" value="no" id="no">
           <label for="no">No</label>
         </div>
       </div>

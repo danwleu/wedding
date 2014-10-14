@@ -170,6 +170,11 @@ textarea {
     margin-right: 6px;
     border: 1px solid $grey;
   }
+  
+  input:checked {
+    outline: none;
+    background: $radio-check no-repeat 2px 2.5px;
+  }
 }
 
 
