@@ -1,6 +1,6 @@
-<section class="party section">
-  <h2>The After-After-Party</h2>
-  <p>We're on file at:</p>
+<section id="registry" class="registry section">
+  <h2>Registry</h2>
+  <p>We&#8217;re on file at:</p>
   
   <ul class="registry-logos">
     <li><a href="" target="_blank"><img src="/assets/images/logo-crate-barrel.png" alt="Crate & Barrel"></a></li>

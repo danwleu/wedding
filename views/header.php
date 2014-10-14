@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<!--   <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <title>Dan and KTB are getting Married, you guys</title>
   <link href="/assets/css/application.css" rel="stylesheet" media="all">
   <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7462852/639786/css/fonts.css" />
@@ -20,7 +19,7 @@
           <li><a href="#place">The Place</a></li>
           <li><a href="#couple">The Couple</a></li>
           <li><a href="#rsvp">RSVP</a></li>
-          <li><a href="#future">The Future</a></li>
+          <li><a href="#party">The Future</a></li>
           <li><a href="#registry">Registry</a></li>
         </ul>
       </nav>
@@ -28,7 +27,7 @@
       <div class="hero">
         <h1 class="title">Katie Daniel</h1>
         <p class="tag">are getting married</p>
-        <p class="date">11.7.2014</p>
+        <p class="wed-date">11.7.2014</p>
       </div>
     
     </div>

@@ -1,8 +1,8 @@
-<section class="place section">
+<section id="place" class="place section">
 
   <div class="col-1-3 col-place">
     <h2>The Place</h2>
-    <p>Our ceremony and reception will take place at the same location, so don?t stress about finding your way between the two.</p>
+    <p>Our ceremony and reception will take place at the same location, so don&#8217;t stress about finding your way between the two.</p>
     <p>Prairie Production is a beautiful, airy photo studio on Randolph Street in Chicago, about a mile and a half south of our home.</p>
     <p>Street parking is available for all you designated drivers out there. You?re the real heroes.</p>
     <p class="bonus">Bonus: One of the only Banksy pieces in Chicago is just down the street</p>
@@ -27,7 +27,7 @@
     <div class="reserved">
       <h2>Where to Stay</h2>
       <div class="main-hotel">
-        <p class="sub-title">We've reserved a block of rooms at</p>
+        <p class="sub-title">We&#8217;ve reserved a block of rooms at</p>
         <h4 class="hotel-title">Hotel Allegro</h4>
         <p class="hotel-address">171 W. Randolph<br>
         Chicago, IL 60601<br>
@@ -49,7 +49,7 @@
         </li>
         <li>
           <p class="label">Trendiest</p>
-          <p class="location"><a href="">Longman & Eagle</a></p>
+          <p class="location"><a href="">Longman &amp; Eagle</a></p>
         </li>
         <li>
           <p class="label">Cheapest</p>
