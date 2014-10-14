@@ -11,14 +11,16 @@
   <div class="col-1-3 col-location">
     <div class="location">
       <div class="icon-marker"></div>
-      <h3 class="hotel-title">Prairie Production</h3>
-      <p class="hotel-address">1314 W. Randolph<br>
-      Chicago, IL 60607<br>
-      (312) 879-7499</p>
-      <ul>
-        <li><a href="" class="btn">Directions</a></li>
-        <li><a href="" class="btn">Website</a></li>
-      </ul>
+      <div class="location-wrap">
+        <h3 class="hotel-title">Prairie Production</h3>
+        <p class="hotel-address">1314 W. Randolph<br>
+        Chicago, IL 60607<br>
+        (312) 879-7499</p>
+        <ul>
+          <li><a href="" class="btn">Directions</a></li>
+          <li><a href="" class="btn">Website</a></li>
+        </ul>
+      </div>
     </div>
   </div>
   
@@ -28,7 +30,7 @@
       <h2>Where to Stay</h2>
       <div class="main-hotel">
         <p class="sub-title">We&#8217;ve reserved a block of rooms at</p>
-        <h4 class="hotel-title">Hotel Allegro</h4>
+        <div class="hotel-allegro"></div>
         <p class="hotel-address">171 W. Randolph<br>
         Chicago, IL 60601<br>
         (312) 236-0123</p>

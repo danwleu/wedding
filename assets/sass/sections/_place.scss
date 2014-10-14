@@ -4,12 +4,13 @@
   color: #fff;
   
   [class*="col-"] {
-    padding: $base 3%;
+    padding: 0 3% $base*2;
   }
 }
 
 .place h2 {
   @include font-size(22px);
+  padding-top: $base*2;
   color: $gold;
   letter-spacing: 0.25em;
 }
@@ -41,9 +42,22 @@
   background-size: cover;
   text-align: center;
   
+  .location {
+    @include vertical-center(relative);
+  }
+  
+  .icon-marker {
+    width: 50px;
+    height: 65px;
+    margin: 0 auto 16px;
+    background: $marker no-repeat;
+  }
+  
   .hotel-title {
     @include font-size(49px);
+    margin-bottom: 6px;
     font-family: $knock-26;
+    letter-spacing: 0.04em;
   }
 
   .hotel-address {
@@ -51,29 +65,76 @@
     margin-bottom: $base;
     line-height: 1.3;
   }
+  
+  li {
+    display: inline-block;
+  }
+  
+  .btn {
+    width: 130px;
+    margin: 0 2px;
+  }
+}
+
+.col-location .location-wrap {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  padding: 6px 0 12px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 100%;
+    border-top: 2px solid $lt-green;
+    border-bottom: 2px solid $lt-green;
+    border-left: 2px solid $lt-green;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6px;
+    height: 100%;
+    border-top: 2px solid $lt-green;
+    border-bottom: 2px solid $lt-green;
+    border-right: 2px solid $lt-green;
+  }
 }
 
 
 .col-reserve {
   text-align: center;
+
+  h2 {
+    margin-bottom: $base;
+  }
   
   .sub-title {
     @include font-size(12px);
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     color: $lt-green;
     font-weight: $semi;
     letter-spacing: 0.1em;
     text-transform: uppercase;
   }
   
-  .hotel-title {
-    @include font-size(20px);
+  .hotel-allegro {
+    display: inline-block;
+    width: 278px;
+    height: 15px;
+    background: $hotel-allegro no-repeat;
     margin-bottom: 10px;
   }
   
   .hotel-address {
     @include font-size(15px);
-    margin-bottom: 12px;
+    margin-bottom: $base;
     line-height: 1.3;
   }
 }
@@ -83,7 +144,7 @@
   
   h3 {
     @include font-size(16px);
-    margin-bottom: 12px;
+    margin-bottom: $base;
     color: $gold;
     font-family: $idle;
     letter-spacing: 0.2em;

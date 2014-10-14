@@ -1,8 +1,4 @@
 
-.party {
-
-}
-
 .party-header {
   background: $lt-green $bg-party no-repeat center bottom;
   background-size: contain;
@@ -14,7 +10,7 @@
   
   p {
     max-width: 460px;
-    margin: 0 auto;
+    margin: 0 auto $base*4;
   }
   
   .rv {
