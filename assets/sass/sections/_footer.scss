@@ -6,6 +6,14 @@
   font-family: $knock-26;
   text-transform: uppercase;
   
+  a {
+    color: $dk-grey;
+    
+    &:hover {
+      color: $red;
+    }
+  }
+  
   .pipe {
     margin: 0 5px;
   }

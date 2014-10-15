@@ -636,6 +636,12 @@ button.btn {
   font-family: "Knockout 26 A", "Knockout 26 B", Helvetica, arial, sans-serif;
   text-transform: uppercase;
 }
+.footer a {
+  color: #555;
+}
+.footer a:hover {
+  color: #df5851;
+}
 .footer .pipe {
   margin: 0 5px;
 }
