@@ -1,5 +1,5 @@
   <footer class="footer">
-    <p>Design and Illustration by Dan | Writings by Katie | Development by Brad Sawicki | Photos by Stephanie Bassos</p>
+    <p>Design and Illustration by Dan <span class="pipe">|</span> Writings by Katie <span class="pipe">|</span> Development by Brad Sawicki <span class="pipe">|</span> Photos by Stephanie Bassos</p>
   </footer>
 
 </div>

@@ -624,10 +624,13 @@ button.btn {
 .footer {
   font-size: 26px;
   font-size: 1.625rem;
-  padding: 72px 0;
+  padding: 96px 0 120px;
   text-align: center;
   font-family: "Knockout 26 A", "Knockout 26 B", Helvetica, arial, sans-serif;
   text-transform: uppercase;
+}
+.footer .pipe {
+  margin: 0 5px;
 }
 
 .date {
