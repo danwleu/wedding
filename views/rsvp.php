@@ -27,6 +27,7 @@
         <div class="form-item form-select">
           <label for="num-attending"># Attending</label>
           <select name="num_attending" id="num-attending">
+            <option value="0">0</option>
             <option value="1">1</option>
             <option value="2">2</option>
           </select>

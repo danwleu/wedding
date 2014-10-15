@@ -61,9 +61,8 @@ $(function(){
     		}
     		$.post('/php/mail.php', data, function(response){
     			$('form').fadeOut(500, function(){
-    				$(this).html('<h2>Talk to you soon!</h2>');
+    				$(this).html('<h2>Thanks for your RSVP!</h2><p>We&#8217;re counting down the days...</p>');
     				$(this).fadeIn(500);
-    				console.log(data);
     			});
     		});
   		}
