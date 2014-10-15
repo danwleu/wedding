@@ -42,6 +42,10 @@ select {
   border: 1px solid $grey;
   color: #fff;
   font-family: $knock-27;
+
+  &.error {
+    border-color: $red;
+  }
 }
 
 input[type="text"]:focus,
@@ -176,6 +180,8 @@ textarea {
     background: $radio-check no-repeat 2px 2.5px;
   }
 }
+
+
 
 
 /** Buttons ============**/

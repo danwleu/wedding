@@ -29,9 +29,60 @@ $(function(){
     col.height(maxHeight);
 
   }
+
+  formSubmit = function() {
+  
+  	$('form').submit(function(e) {
+  		e.preventDefault();
+  		var errorcount = 0;
+  		
+  		$('input[type="text"]').each(function() {
+  	    iValue = $(this).val();
+    		if(iValue == '') {
+          $(this).addClass('error');
+          errorcount++;
+    		}
+  		});
+  		
+  		if(errorcount == 0) {
+    		$(this).find('button').prop('disabled', 'disabled').html('Please wait...');
+    
+    		var first_name = $('#first-name').val();
+    		var last_name = $('#last-name').val();
+    		var attending = $('.attending:checked').val();
+    		var num_attending = $('#num-attending').val();
+    		var message = $('#message').val();
+    		var data = {
+    			first_name: first_name,
+    			last_name: last_name,
+    			attending: attending,
+    			num_attending: num_attending,
+    			message: message
+    		}
+    		$.post('/php/mail.php', data, function(response){
+    			$('form').fadeOut(500, function(){
+    				$(this).html('<h2>Talk to you soon!</h2>');
+    				$(this).fadeIn(500);
+    				console.log(data);
+    			});
+    		});
+  		}
+  
+  	});
+  	
+  	$('input[type="text"]').focus(function() {
+	   if ($(this).hasClass('error')) {
+       $(this).keyup(function() {
+         $(this).removeClass('error');
+       });
+	   }
+  	});
+	
+	}
   
   navScroll();
   charityColHeight();
+  formSubmit();
 
 });
 

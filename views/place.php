@@ -4,7 +4,7 @@
     <h2>The Place</h2>
     <p>Our ceremony and reception will take place at the same location, so don&#8217;t stress about finding your way between the two.</p>
     <p>Prairie Production is a beautiful, airy photo studio on Randolph Street in Chicago, about a mile and a half south of our home.</p>
-    <p>Street parking is available for all you designated drivers out there. You?re the real heroes.</p>
+    <p>Street parking is available for all you designated drivers out there. You&#8217;re the real heroes.</p>
     <p class="bonus">Bonus: One of the only Banksy pieces in Chicago is just down the street</p>
   </div>
 
