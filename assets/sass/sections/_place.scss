@@ -60,10 +60,13 @@
     letter-spacing: 0.04em;
   }
 
-  .hotel-address {
+  p {
     @include font-size(15px);
-    margin-bottom: $base;
     line-height: 1.3;
+  }
+  
+  .time {
+    margin-bottom: $base;
   }
   
   li {
@@ -112,6 +115,7 @@
   text-align: center;
 
   h2 {
+    @include font-size(16px);
     margin-bottom: $base;
   }
   
@@ -141,7 +145,7 @@
 
 .col-reserve .options {
   padding-top: $base*2;
-  
+    
   h3 {
     @include font-size(16px);
     margin-bottom: $base;
@@ -154,11 +158,13 @@
     float: left;
     width: 50%;
     margin-bottom: 12px;
+    padding-right: 12px;
     text-align: left;
   }
   
   .label {
     @include font-size(12px);
+    margin-bottom: 3px;
     color: $lt-green;
     font-weight: $semi;
     line-height: 1.1;
@@ -167,6 +173,7 @@
   }
   
   .location {
+    line-height: 1.25;
     font-weight: $semi;
     letter-spacing: 0.1em;
     text-transform: uppercase;
