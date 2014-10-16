@@ -844,6 +844,8 @@ button.btn {
   text-transform: uppercase;
 }
 .col-reserve .options .location {
+  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.25;
   font-weight: 500;
   letter-spacing: 0.1em;
@@ -951,6 +953,12 @@ button.btn {
 }
 .rsvp h2 {
   color: #c7aa6a;
+  text-align: center;
+}
+.rsvp h4 {
+  margin-bottom: 12px;
+  color: #fff;
+  font-weight: 700;
   text-align: center;
 }
 .rsvp p {

@@ -173,6 +173,7 @@
   }
   
   .location {
+    @include font-size(14px);
     line-height: 1.25;
     font-weight: $semi;
     letter-spacing: 0.1em;
