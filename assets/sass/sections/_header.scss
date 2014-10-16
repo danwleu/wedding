@@ -53,6 +53,7 @@
 
 .hero {
   @include absolute-center;
+  width: 90%;
 }
 
 .hero .title {
@@ -66,7 +67,7 @@
     left: 50%;
     width: 100px;
     height: 2px;
-    margin-left: -52px;
+    margin-left: -50px;
     background: $red;
   }
   
@@ -161,6 +162,10 @@
 .main-nav li {
   display: inline-block;
   margin: 0 60px;
+  
+  @include bp-max-width(1250px) {
+    margin: 0 30px;
+  }
   
   &:first-of-type {
     margin-left: 0;

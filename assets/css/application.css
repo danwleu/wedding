@@ -224,7 +224,7 @@ body {
 .page {
   *zoom: 1;
   max-width: 1800px;
-  min-width: 1100px;
+  min-width: 1024px;
   margin: 0 auto;
 }
 .page:before, .page:after {
@@ -516,6 +516,7 @@ button.btn {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 90%;
 }
 
 .hero .title {
@@ -529,7 +530,7 @@ button.btn {
   left: 50%;
   width: 100px;
   height: 2px;
-  margin-left: -52px;
+  margin-left: -50px;
   background: #df5851;
 }
 .hero .title:before {
@@ -614,6 +615,11 @@ button.btn {
   display: inline-block;
   margin: 0 60px;
 }
+@media (max-width: 1250px) {
+  .main-nav li {
+    margin: 0 30px;
+  }
+}
 .main-nav li:first-of-type {
   margin-left: 0;
 }
@@ -683,6 +689,9 @@ button.btn {
 }
 .place [class*="col-"] {
   padding: 0 3% 48px;
+}
+.place .col-location {
+  padding: 0 0 48px;
 }
 
 .place h2 {
