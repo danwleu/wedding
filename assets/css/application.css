@@ -866,8 +866,21 @@ button.btn {
   background: #f9f9f9;
 }
 .couple h2 {
+  margin-bottom: 12px;
   color: #c7aa6a;
   text-align: center;
+}
+.couple .section-intro {
+  font-size: 14px;
+  font-size: 0.875rem;
+  margin-bottom: 48px;
+  text-align: center;
+}
+.couple .section-intro a {
+  color: #2d2d2d;
+}
+.couple .section-intro a:hover {
+  color: #df5851;
 }
 
 .bride-groom .person:first-child {

@@ -1,5 +1,6 @@
 <section id="couple" class="couple section">
   <h2>The Couple</h2>
+  <p class="section-intro"><a href="https://dlktb.exposure.co/engagement" target="_blank">See our engagement photos</a></p>
   
   <div class="bride-groom">
     <div class="person">

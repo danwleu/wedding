@@ -4,8 +4,23 @@
   background: $off-white;
   
   h2 {
+    margin-bottom: 12px;
     color: $gold;
     text-align: center;
+  }
+  
+  .section-intro {
+    @include font-size(14px);
+    margin-bottom: $base*2;
+    text-align: center;
+    
+    a {
+      color: $black;
+      
+      &:hover {
+        color: $red;
+      }
+    }
   }
 }
 
