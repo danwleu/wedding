@@ -2,12 +2,14 @@
 .footer {
   @include font-size(26px);
   padding: $base*4 0 $base*5;
+  color: $md-grey;
   text-align: center;
   font-family: $knock-26;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   
   a {
-    color: $dk-grey;
+    color: $md-grey;
     
     &:hover {
       color: $red;

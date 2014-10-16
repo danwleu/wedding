@@ -638,12 +638,14 @@ button.btn {
   font-size: 26px;
   font-size: 1.625rem;
   padding: 96px 0 120px;
+  color: #aaa;
   text-align: center;
   font-family: "Knockout 26 A", "Knockout 26 B", Helvetica, arial, sans-serif;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 .footer a {
-  color: #555;
+  color: #aaa;
 }
 .footer a:hover {
   color: #df5851;
